@@ -14,3 +14,11 @@ Phenology of Georgia (Caucasus). Phenology is derived from NDVI (Modis satellite
 `calc_phenology` - calculate phenology parameters: SOS, MOS, EOS, LOS
 
 `maps` - create plots
+
+## Python package
+
+Core functionality is now bundled in the `ts_analysis` package:
+
+- `io_utils` provides helpers to load and write GeoTIFF files.
+- `smoothing` contains utilities for Whittaker filtering.
+- `phenology` calculates seasonality metrics.
